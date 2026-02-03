@@ -67,5 +67,4 @@ test('5. Reuse locators for Basic form multiple submissions', async ({ page }) =
     await passwordInput.fill('second-password');
     await submitButton.click();
   });
-
 });
